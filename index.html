@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Noto+Sans+Syriac+Eastern:wght@300&family=Oswald&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@800&family=Quicksand:wght@300&family=Roboto:wght@100;300&family=Skranji&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(18, 37, 45);
+            color: white;
+            font-family: 'Poppins', sans-serif
+        }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(10, 10, 23);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+    color: rgb(198, 198, 241);
+    font-size: 1.02rem;
+  }
+  .left{
+    font-size: 1.5rem;
+  }
+  .firstsection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 10px 0;
+  }
+  .firstsection > div{
+    /* (>  esa lgane se only first div ko milega ) */
+     width: 30%;
+     /* background-color: red; */
+  }
+  .leftsection{
+    /* background-color: red; */
+    font-size:rem ;
+    /* align-items: center; */
+    /* margin: 70px 0 ; */
+    
+  }
+  .leftsection .button{
+    padding: 4px 0;
+    margin: 14px -58px;
+  }
+  .leftsection .btn{
+padding: 12px;
+background-color: rgb(15, 59, 80);
+color: white;
+border: 2px solid white;
+border-radius: 3px ;
+font-size: 20px;
+cursor: pointer;
+
+  }
+  .rightsection img{
+    /* background-color: red; */
+    width: 80%;
+    margin: 50px 0;
+  }
+  .purple{
+color: blueviolet;
+  }
+  .text-gray{
+    color: grey;
+  }
+  #element{
+    color: blueviolet;
+  }
+  .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  main hr{
+    border: 0;
+    background-color:grey;
+    height: 4.8px;
+    margin: 36px 108px;
+  }
+  .secondSection h1{
+font-size: 1.9rem;
+  }
+   .secondSection .box{
+    background-color: white;
+    width: 68vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondSection .verticle{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+  margin: 0 110px;
+  
+  }
+  .img-top {
+    width: 60px;
+    position: relative;
+    top: -60px;
+    left: -28px;
+  }
+  .verticle-tittle{
+    position: absolute;
+    top: 733px;
+    width: 150px;
+    font-size:14px ;
+    
+  }
+  .verticle-desc{
+   position:absolute;
+   top: 790px;
+   color: grey;
+    width: 150px;
+    font-size: 9px;
+  }
+  footer{
+background-color:rgb(8, 13, 16) ;
+/* height: 233px; */
+
+  }
+  .footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
+  .footer ul{
+    list-style: none;
+
+  }
+  .footer > div{
+    width: 223px;
+  }
+  footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Nishant portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="">Home  </a> </li>
+                    <li> <a href="">About </a></li>
+                    <li> <a href="">Servies </a></li>
+                    <li> <a href="">Project </a></li>
+                    <li> <a href="">Contect Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+               Hi,My name is    <span class="purple">Nishant</span>
+               <div>and I am a passionate</div>
+               <div> Web Developer</div> 
+               <span id="element"></span>
+               <div class="button">
+                <button class="btn">Dowload Resume</button>
+               <button class="btn"> Visit Github</button>
+               </div>
+               
+              </div>
+            <div class="rightsection">
+                <img src="pg1.png" alt="">
+            </div>
+
+        </section>
+<hr>
+        <section class="secondSection">
+          <span class="text-gray"> What  I have  done so far</span>
+          <h1> Work Experience</h1>
+          <div class="box">
+            <div class="verticle">
+              <img    class="img-top"  src="html.png" alt="">
+              <div class="verticle-tittle">
+                HTML Developer (2010-2012)
+              </div>
+              <div class="verticle-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam eaque commodi neque deleniti nesciunt illo dignissimos harum quisquam at, voluptate saepe cumque.
+              </div>
+            </div>
+           
+            <div class="verticle">
+              <img    class="img-top"  src="node.png" alt="">
+              <div class="verticle-tittle">
+                Node Js Developer (2010-2012)
+              </div>
+              <div class="verticle-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam eaque commodi neque deleniti nesciunt illo dignissimos harum quisquam at, voluptate saepe cumque.
+              </div>
+            </div>
+
+            <div class="verticle">
+              <img    class="img-top"  src="js.png" alt="">
+              <div class="verticle-tittle">
+                Javascript Developer (2010-2012)
+              </div>
+              <div class="verticle-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam eaque commodi neque deleniti nesciunt illo dignissimos harum quisquam at, voluptate saepe cumque.
+              </div>
+            </div>
+            <div class="verticle">
+              <img    class="img-top"  src="react.png" alt="">
+              <div class="verticle-tittle">
+                React Developer (2010-2012)
+              </div>
+              <div class="verticle-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam eaque commodi neque deleniti nesciunt illo dignissimos harum quisquam at, voluptate saepe cumque.
+              </div>
+            </div>
+            <div class="verticle">
+              <img    class="img-top"  src="css.png" alt="">
+              <div class="verticle-tittle">
+                Css Developer (2010-2012)
+              </div>
+              <div class="verticle-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam eaque commodi neque deleniti nesciunt illo dignissimos harum quisquam at, voluptate saepe cumque.
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </section>
+    </main>
+   <footer>
+    <div class="footer">
+      <div class="footerfirst">
+        <h3>Nishant's Developer Portfolio</h3>
+      </div>
+      <div class="footersecond">
+        <ul>
+          <li>Hone</li>
+          <li>About</li>
+          <li>servies</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footerthird">
+        <ul>
+          <li>Hone</li>
+          <li>About</li>
+          <li>Servies</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footerfourth">
+        <ul>
+          <li>Hone</li>
+          <li>About</li>
+          <li>Servies</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+<div class=" footer-rights">
+ Copyrights &#169 Nishantportfolio.com | All right reserved
+</div>
+   </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer.', 'Graphic Designer.','web Designer','Video Editor'],
+        typeSpeed: 50,
+      });
+    </script>
+</body>
+</html>
